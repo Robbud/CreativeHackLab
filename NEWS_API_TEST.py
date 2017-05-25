@@ -27,7 +27,7 @@ news = json.loads(r.content)
 
 # download images from url and save into Images folder.
 
-fullfilename = os.path.join('/home/pi/CreativeHackLab/Images','filename')
+fullfilename = os.path.join('folder','filename')
 urllib.urlretrieve("https://newsapi.org/v1/articles?source=espn&apiKey=YOUR API KEY","Images/Image.jpg")
 
 
