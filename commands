@@ -1,0 +1,3 @@
+# resize all .jpg images 
+for j in *.jpg ; do
+> convert "$j" -resize 150 "150-$j"
