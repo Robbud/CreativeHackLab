@@ -7,7 +7,7 @@ import os
 import serial
 import urllib, urlparse
 # put the apikey you got when you subscribed below:
-apikey = "9e752fd5350b41efb5a11b25818d8eaa"
+apikey = "API KEY HERE"
 
 # change this to the one you want or
 # maybe have an array of sources that you loop through?
@@ -15,7 +15,7 @@ source = "The Guardian"
 
 # the url for the news api articles combining the  variables you defined above
 
-url = 'https://newsapi.org/v1/articles?source=the-guardian-uk&apiKey=9e752fd5350b41efb5a11b25818d8eaa'
+url = 'https://newsapi.org/v1/articles?source=the-guardian-uk&apiKey=API KEY HERE'
 
 
 #ser = serial.Serial('/dev/ttyACM0', 9600')
@@ -41,7 +41,7 @@ print(news["articles"][0].keys())
 # and print the "title' key followed by a line break (\n  newline)
 
 
-#urllib.urlretrieve("https://newsapi.org/v1/articles?source=the-guardian-uk&apiKey=9e752fd5350b41efb5a11b25818d8eaa")
+#urllib.urlretrieve("https://newsapi.org/v1/articles?source=the-guardian-uk&apiKey=API KEY HERE")
 
 
 ser = serial.Serial('/dev/ttyACM0',9600)
