@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # change this to the one you want or
 # maybe have an array of sources that you loop through?
 source = "EXAMPLESOURCE"
