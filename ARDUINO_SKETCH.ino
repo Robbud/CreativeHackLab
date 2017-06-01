@@ -14,7 +14,7 @@ lcd.begin(16,2);
 void loop() {
   a++;                          // a value increase every loop
   sprintf(dataString,"%02X",a); // convert a value to hexa 
-  Serial.println(dataString);   // send the data
+  Serial.println(dataString);   // send the data from python
   delay(1000);                  // give the loop some break
   // set the cursor to (0,0):
   lcd.setCursor(0, 0);
