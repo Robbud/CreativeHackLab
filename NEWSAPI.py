@@ -25,7 +25,7 @@ news = json.loads(r.content)
 
 
 # download images from url and save into Images folder.
-
+# The images are used to edit photos
 #fullfilename = os.path.join('/home/pi/CreativeHackLab/Images','filename')
 #urllib.urlretrieve(url,"Images/Image1")
 
@@ -36,7 +36,7 @@ print(news["articles"][0].keys())
 
 # now i will use a "for loop" to cycle through each of the articles
 # and print the "title' key followed by a line break (\n  newline)
-
+# Shows diffrent headlines, depending on what source you use
 
 urllib.urlretrieve("http://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2017%2F0524%2Fr212486_1296x729_16%2D9.jpg", "asdf.jpg")
 
