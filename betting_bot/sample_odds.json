@@ -1,0 +1,19 @@
+[
+  {
+    "home": "Toronto Maple Leafs",
+    "away": "Ottawa Senators",
+    "book": "MyBook",
+    "commence": "2026-10-10T23:00:00Z",
+    "lines": [
+      {"market": "moneyline", "side": "home", "price": 1.72},
+      {"market": "moneyline", "side": "away", "price": 2.15},
+      {"market": "3way", "side": "home", "price": 2.20},
+      {"market": "3way", "side": "draw", "price": 4.10},
+      {"market": "3way", "side": "away", "price": 2.95},
+      {"market": "handicap", "side": "home", "point": -1.5, "price": 2.55},
+      {"market": "handicap", "side": "away", "point": 1.5, "price": 1.52},
+      {"market": "total", "side": "over", "point": 6.5, "price": 2.00},
+      {"market": "total", "side": "under", "point": 6.5, "price": 1.82}
+    ]
+  }
+]
